@@ -710,5 +710,38 @@ a:focus {
   color: #fbfcfd;
 }
 
+.banner_img_discord {
+  position: relative;
+  display: inline-block;
+}
+
+.hover_text {
+  visibility: hidden;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.banner_img_discord:hover .hover_text {
+  visibility: visible;
+}
+
+.box {
+  width: 200px; /* 이미지 박스의 너비 설정 */
+}
+
+.banner_img_discord img {
+  width: 100%;
+  height: auto;
+}
+
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
